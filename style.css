@@ -142,12 +142,13 @@ nav{
     width: 1014px;
     height: 1116px;
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 12px;
     background: rgba(13, 19, 33, 0.02);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 64px 77px 64px 77px;
+    margin-bottom: 70px;
  }
  
     
@@ -179,10 +180,11 @@ nav{
     opacity: 0.7;
  }
 
-  /*code section one*/
+  /*code section one  &  three*/
 
 
-.code-section-one{
+.code-section-one ,.code-section-three
+{
     width: 756px;
     height: 268px;
     padding: 38px;
@@ -195,7 +197,7 @@ nav{
   
 
 }
-.code-section-one .detail{
+.code-section-one .detail, .code-section-three .detail{
     width: 50%;
     height: 100%;
     margin-left: 10px;
@@ -204,14 +206,14 @@ nav{
 
     
 }
-.code-section-one .detail h3{
+.code-section-one .detail h3, .code-section-three .detail h3{
     font-size: 19px;
     font-weight: 560;
     line-height: 28px;
     text-align: left;
     margin-bottom: 12px;
 }
-.code-section-one .detail p{
+.code-section-one .detail p, .code-section-three .detail p{
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
@@ -220,7 +222,9 @@ nav{
 }
 
 .code-section-one .detail  button,
-.code-section-two .detail  button{
+.code-section-two .detail  button,.code-section-three .detail  button
+
+{
     font-size: 16px;
     font-weight: 480;
     line-height: 18px;
@@ -255,6 +259,7 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    margin-bottom: 25px;
    
 }
 .code-section-two .img{
@@ -287,7 +292,19 @@ nav{
    line-height: 20px;
    margin-bottom: 25px;
 }
+  
+/* code section three img*/
 
+.code-section-three .img{
+    width: 30%;
+    height: 99%;
+    background-image: url(./assets/Group\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ /** web section finish**/
 
 
 
