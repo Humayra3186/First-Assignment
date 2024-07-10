@@ -8,6 +8,11 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+a{
+    text-decoration: none;
+}
+  
+
 
   /* header section start*/
   
@@ -343,6 +348,83 @@ nav{
     border-radius: 12px;
 
  }
+  
+  
+ /** inspiration section finish**/
+ 
+
+  /** my target section start*/
+
+  .target-section{
+    width: 1014px;
+    height: 369px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    text-align: center;
+    margin-bottom: 88px;
+  }
+  
+  .target-section h3{ 
+    font-size: 25px;
+    font-weight: 640;
+    line-height: 29px;
+    margin-bottom: 19px;
+  }
+  .target-section p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-bottom: 38px;
+  }
+
+  .topic-section{
+    width: 100%;
+    height: 239px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .topic-one,.topic-two,.topic-three {
+    width: 310px;
+    height: 100%;
+    padding: 32px;
+    border-radius: 12px;
+    background: rgba(255, 76, 30, 0.05);
+    text-align: left;
+  }
+  .topic-one img,.topic-two img,.topic-three img{
+    margin-bottom: 6px;
+  }
+  .topic-one h3,.topic-two h3,.topic-three h3{
+    margin-bottom: 3px;
+  }
+  .topic-one p,.topic-two p,.topic-three p{
+    margin-bottom: 19px;
+  }
+
+  .topic-one button,.topic-two button,.topic-three button{
+    border: none;    
+    font-size: 12px;
+    font-weight: 560;
+    line-height: 15px;
+    text-decoration-line: underline;
+    background: none;
+  }
+.topic-one button a,.topic-two button a,.topic-three button a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+  }
+  .topic-two{
+    background: rgba(0, 76, 232, 0.05);
+  }
+  .topic-three{
+    background: rgba(255, 223, 0, 0.05);
+  }
+
+
+  
+
 
 
 
