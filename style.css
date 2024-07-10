@@ -185,6 +185,8 @@ nav{
     opacity: 0.7;
  }
 
+  /* lets style the 3 code section inside the web section*/
+
   /*code section one  &  three*/
 
 
@@ -362,7 +364,7 @@ nav{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     text-align: center;
-    margin-bottom: 88px;
+    margin-bottom: 36px;
   }
   
   .target-section h3{ 
@@ -422,7 +424,84 @@ nav{
     background: rgba(255, 223, 0, 0.05);
   }
 
+    /**target section close**/
 
+    /** support section is here**/
+
+    .support-section{
+      width: 1014px;
+      height: 270px;
+      margin: 0 auto;
+      background-image: url(./assets/handshake.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 12px;
+      margin-bottom: 63px;
+      position: relative;
+
+
+    }
+    .support-content{
+      width: 1014px;
+      height: 270px;
+      border-radius: 12px;
+      background:rgba(0, 0, 0, 0.455);
+      position: absolute;
+      padding: 51px 38px;
+      text-align: center;
+    }
+    .support-content h2{
+      color: rgb(255, 255, 255);
+      font-family: Azeret Mono;
+      font-size: 25px;
+      font-weight: 560;
+      line-height: 28px;
+      margin-bottom: 12px;
+    }
+    .support-content p{
+      color: rgb(255, 255, 255);
+      font-family: Azeret Mono;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      opacity: 0.7;
+      margin-bottom: 35px;
+
+      
+    }
+    .support-content .input-one {
+      width: 438px;
+      height: 45px;
+      color: rgba(13, 19, 33, 0.4);
+      font-family: Azeret Mono;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15px;
+      padding: 15px 20px 15px 16px;
+      border: 1px solid rgba(13, 19, 33, 0.15);
+      border-radius: 8px;
+      background: rgb(255, 255, 255);
+    }
+    .support-content .input-two{
+      width: 96px;
+      height: 46px;
+      padding: 13px 16px;
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 480;
+      line-height: 18px;
+      border-radius: 8px;
+      background: rgb(255, 255, 255);
+
+   
+    }
+
+
+
+   
+     
   
 
 
