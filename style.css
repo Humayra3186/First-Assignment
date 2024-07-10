@@ -213,37 +213,38 @@ nav{
 
     
 }
-.code-section-one .detail h3, .code-section-three .detail h3{
+.code-h3{
     font-size: 19px;
     font-weight: 560;
     line-height: 28px;
     text-align: left;
     margin-bottom: 12px;
 }
-.code-section-one .detail p, .code-section-three .detail p{
+.code-p{
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
     margin-bottom: 25px;
 }
-
-.code-section-one .detail  button,
-.code-section-two .detail  button,.code-section-three .detail  button
-
-{
-    font-size: 16px;
-    font-weight: 480;
-    line-height: 18px;
+    /**code section buttons**/
+.code-btn{
     text-align: center;
     border: 1px solid rgb(13, 19, 33);
     background-color: white;
     opacity: 0.7;
-
-   opacity: 0.7;
    padding: 9px 16px 9px 16px;
 
 }
+.code-btn a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 480;
+  line-height: 18px;
+  
+}
+
+
 
 .code-section-one .img{
     width: 30%;
@@ -342,7 +343,7 @@ nav{
 
  }
 
- .inspiration-container .video{
+ .inspiration-container .video {
     width: 100%;
     height: 491px;
     padding: 25px;
@@ -386,6 +387,8 @@ nav{
     height: 239px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    
   }
   .topic-one,.topic-two,.topic-three {
     width: 310px;
@@ -395,27 +398,34 @@ nav{
     background: rgba(255, 76, 30, 0.05);
     text-align: left;
   }
-  .topic-one img,.topic-two img,.topic-three img{
+  .topic-img{
     margin-bottom: 6px;
   }
-  .topic-one h3,.topic-two h3,.topic-three h3{
+  .topic-h3{
     margin-bottom: 3px;
+   
   }
-  .topic-one p,.topic-two p,.topic-three p{
+  .topic-p{
     margin-bottom: 19px;
+    
   }
 
-  .topic-one button,.topic-two button,.topic-three button{
+  .topic-btn{
+    position: absolute;
+    bottom: 31px;
     border: none;    
     font-size: 12px;
     font-weight: 560;
     line-height: 15px;
     text-decoration-line: underline;
     background: none;
+    
+  
   }
-.topic-one button a,.topic-two button a,.topic-three button a{
+  .topic-btn a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
+    
   }
   .topic-two{
     background: rgba(0, 76, 232, 0.05);
@@ -520,6 +530,8 @@ nav{
       line-height: 18px; 
       padding-top: 7px;
     }
+
+       /**Finally, this assignment is completed**/
 
 
 
